@@ -17,4 +17,4 @@ public interface Fractional {
     Fractional negation ();
     // new multiplicative inverse object
     Fractional reciprocal ();
-}//hallo
+}
