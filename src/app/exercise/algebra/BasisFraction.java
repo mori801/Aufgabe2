@@ -31,7 +31,7 @@ public abstract class BasisFraction implements Fractional{
 
     public Fractional reciprocal(){
         if(getN() == 0){
-            throw new IllegalArgumentException("Kehrbruch kann nicht gebildet werden")
+            throw new IllegalArgumentException("Kehrbruch kann nicht gebildet werden");
         }
         setND(getD(), getN());
         return this;
